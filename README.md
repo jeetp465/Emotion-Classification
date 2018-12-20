@@ -14,3 +14,4 @@ More information about the dataset can be obtained [here](https://rpand002.githu
 ## Results & Observations
 * CNN model and normal Resnet34 were unable to extract meaningful features to classify the images into 25 emotion categories.
 * Resnet34 Level1 managed to classify the images into positive or negative with *65.52%* accuracy on the test set after 10 epochs. This can further be improved by optimizing the learning rate.
+* Resnet50 Level2 classifies the images into positive and negative with *70.37%* accuracy on the test set after 10 epochs with learning rate scheduler. Level 2 experiment pending.
